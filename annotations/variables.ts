@@ -43,3 +43,7 @@ for (let i = 0; i < numbers.length; i++) {
         numberAboveZero = numbers[i]
     }
 }
+
+function name(params:type) {
+    
+}
