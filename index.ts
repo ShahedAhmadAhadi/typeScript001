@@ -24,3 +24,9 @@ const logTodo = (id: number, title: string, completed: boolean) => {
     Has a title of: ${title}
     Is it finished? ${completed}`)
 }
+
+interface tuplesObject {
+    [key: string]: [number, string]
+}
+
+let tuple: tuplesObject  = {a: [1, ''],b: [1, '']}
